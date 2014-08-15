@@ -23,7 +23,7 @@ function GameLayer:init(map, level)
     
     -- 生命条
     local heartBar = HeartBar.new()
-    heartBar:init(levelData.heartNum)
+    heartBar:init(levelData.heartNum, levelData.heartBg)
     heartBar:setPosition(heartBar:getContentSize().width / 2,
         winSize.height - heartBar:getContentSize().height/2)
     self:addChild(heartBar, G.high)

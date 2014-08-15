@@ -1,6 +1,7 @@
-local HeartBar = class("HeartBar", function() return cc.Sprite:create("res/heart_box.png") end)
+local HeartBar = class("HeartBar", function() return cc.Sprite:create() end)
 
-function HeartBar:init(heartNum)
+function HeartBar:init(heartNum, texture)
+    self:setTexture(texture)
     self._heartNum = heartNum
     local heartBarSize = self:getContentSize()
     for i = 1, self._heartNum do

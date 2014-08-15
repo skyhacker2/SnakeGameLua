@@ -2,6 +2,7 @@ local MapLevel = {
     grass = {
         {
             heartNum = 4,
+            heartBg = "res/heart_bar_grass.png",
             background = "res/map_grass_bg.png",
             barriers = {
                 {direction = 2, x = 6, y = 5},
@@ -25,6 +26,7 @@ local MapLevel = {
     stone = {
         {
             heartNum = 4,
+            heartBg = "res/heart_bar_stone.png",
             background = "res/map_stone_bg.png",
             barriers = {
                 {direction = 2, x = 6, y = 5},
@@ -48,6 +50,7 @@ local MapLevel = {
     snow = {
         {
             heartNum = 4,
+            heartBg = "res/heart_bar_snow.png",
             background = "res/map_snow_bg.png",
             barriers = {
                 {direction = 2, x = 6, y = 5},
