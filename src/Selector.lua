@@ -57,14 +57,21 @@ function Selector:init(opt)
     local opt = opt or {}
     local rings = cc.Sprite:create("res/rings.png")
     rings:setPosition(s.width/3,s.height - rings:getContentSize().height/2)
-    self:addChild(rings,G.low)
+    self:addChild(rings,G.high)
     
     -- 木板
     self._board = Board:new()
     self._board:init()
     self._board:setPosition(s.width/3, s.height - 100)
-    self:addChild(self._board, G.lowest)
+    self:addChild(self._board, G.middle)
     self._boardX, self._boardY = self._board:getPosition()
+    
+    -- 提示动画
+    self._tipSprite = cc.Sprite:create("res/tips6.png")
+    self._tipSprite:setPosition(s.width/3, 100)
+    local animate = self:getTipsAnimate()
+    self._tipSprite:runAction(animate)
+    self:addChild(self._tipSprite, G.low)
     
     local eventListener = cc.EventListenerTouchOneByOne:create()
     eventListener:setSwallowTouches(true)
@@ -79,6 +86,21 @@ function Selector:init(opt)
         cc.Handler.EVENT_TOUCH_ENDED)    
     local dispatcher = self:getEventDispatcher()
     dispatcher:addEventListenerWithSceneGraphPriority(eventListener, self)
+end
+
+-- 向下滑提示动画
+function Selector:getTipsAnimate()
+    local animation = cc.Animation:create();
+    for i = 1, 6 do
+        local name = "res/tips"..i..".png"
+        cclog(name)
+        animation:addSpriteFrameWithFile(name)
+    end
+    animation:setDelayPerUnit(0.3)
+    animation:setLoops(-1)
+    animation:setRestoreOriginalFrame(true)
+    local animate = cc.Animate:create(animation);
+    return animate
 end
 
 function Selector:onTouchBegan(touch, event)

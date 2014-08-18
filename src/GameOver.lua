@@ -35,10 +35,10 @@ function GameOver.create(opt)
     
     local function gotoHome()
         print("gotoHome")
-        cc.Director:getInstance():replaceScene(require("src/HomeScene").scene())
+        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene())
     end
     
-    local menuItemLabels = {"再试一次", "返回主页"}
+    local menuItemLabels = {"重玩", "返回"}
     local menuItemCallbacks = {restart, gotoHome}
     
     for i, v in ipairs(menuItemLabels) do

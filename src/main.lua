@@ -43,7 +43,7 @@ local function main()
     G.init()
     cclog("Game Start")
 	if cc.Director:getInstance():getRunningScene() then
-        cc.Director:getInstance():replaceScene(require("src/HomeScene").scene())
+        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene())
 	else
         cc.Director:getInstance():runWithScene(require("src/HomeScene").scene())
 	end

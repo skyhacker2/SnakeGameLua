@@ -132,7 +132,6 @@ function GameLayer:decreaseHeart()
         local gameOver = GameOver.create{
             score = self._eated,
             create = function()
-                print('print')
                 local GameScene = require "GameScene"
                 local gameScene = GameScene.scene(self._map, self._level)
                 return gameScene
