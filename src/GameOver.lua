@@ -28,6 +28,7 @@ function GameOver.create(opt)
     local function restart()
         print("restart")
         if opt.create ~= nil then
+            hideAds()
             local scene = opt.create()
             cc.Director:getInstance():replaceScene(scene)
         end
@@ -35,6 +36,7 @@ function GameOver.create(opt)
     
     local function gotoHome()
         print("gotoHome")
+        hideAds()
         cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene())
     end
     
@@ -47,6 +49,9 @@ function GameOver.create(opt)
         item:registerScriptTapHandler(menuItemCallbacks[i])
         menu:addChild(item)        
     end
+    
+    -- 显示广告
+    showAds()
             
     return layer
 end

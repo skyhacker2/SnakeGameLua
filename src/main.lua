@@ -45,7 +45,7 @@ local function main()
 	if cc.Director:getInstance():getRunningScene() then
         cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene())
 	else
-        cc.Director:getInstance():runWithScene(require("src/HomeScene").scene())
+        cc.Director:getInstance():runWithScene(require("src/MapSelectScene").scene())
 	end
 	
 end

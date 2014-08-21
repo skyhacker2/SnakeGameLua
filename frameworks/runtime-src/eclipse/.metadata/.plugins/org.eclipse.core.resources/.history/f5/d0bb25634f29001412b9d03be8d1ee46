@@ -1,0 +1,30 @@
+//
+//  lua_admanager_manual.cpp
+//  SnakeGameLua
+//
+//  Created by Eleven Chen on 14-8-21.
+//
+//
+
+#include "lua_admanager_manual.h"
+#ifdef __cplusplus
+extern "C" {
+#endif
+#include  "tolua_fix.h"
+#ifdef __cplusplus
+}
+#endif
+
+#include "AdManager.h"
+
+
+static int lua_adManager_showAds(lua_State* L)
+{
+    if (nullptr == L)
+        return 0;
+    CCLOG("lua_adManager_showAds");
+    AdManager::getInstance()->showAds();
+
+    return 0;
+}
+

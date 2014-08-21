@@ -70,8 +70,9 @@ function Selector:init(opt)
     self._tipSprite = cc.Sprite:create("res/tips6.png")
     self._tipSprite:setPosition(s.width/3, 100)
     local animate = self:getTipsAnimate()
-    self._tipSprite:runAction(animate)
+
     self:addChild(self._tipSprite, G.low)
+    self._tipSprite:runAction(animate)
     
     local eventListener = cc.EventListenerTouchOneByOne:create()
     eventListener:setSwallowTouches(true)
@@ -97,10 +98,12 @@ function Selector:getTipsAnimate()
         animation:addSpriteFrameWithFile(name)
     end
     animation:setDelayPerUnit(0.3)
-    animation:setLoops(-1)
+    
     animation:setRestoreOriginalFrame(true)
-    local animate = cc.Animate:create(animation);
-    return animate
+    --animation:setLoops(-1)
+    local animate = cc.Animate:create(animation)
+    local action = cc.RepeatForever:create(animate)
+    return action
 end
 
 function Selector:onTouchBegan(touch, event)

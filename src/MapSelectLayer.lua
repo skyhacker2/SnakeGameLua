@@ -11,6 +11,7 @@ function MapSelectLayer:init()
     self._selector = Selector.new()
     self._selector:init()
     self:addChild(self._selector, G.low)
+    
 end
 
 return MapSelectLayer

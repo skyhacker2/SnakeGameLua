@@ -3,6 +3,5 @@ frameworks/runtime-src/proj.android/obj
 frameworks/runtime-src/proj.android/bin
 frameworks/runtime-src/proj.android/assets
 runtime/
-publish/
 
 .DS_Store

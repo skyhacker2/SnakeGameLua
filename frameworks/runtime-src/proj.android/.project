@@ -30,4 +30,11 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Classes</name>
+			<type>2</type>
+			<location>/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes</location>
+		</link>
+	</linkedResources>
 </projectDescription>

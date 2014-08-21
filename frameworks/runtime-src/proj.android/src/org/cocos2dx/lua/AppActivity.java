@@ -26,10 +26,10 @@ THE SOFTWARE.
 ****************************************************************************/
 package org.cocos2dx.lua;
 
-import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.util.Enumeration;
+import net.youmi.android.AdManager;
+import net.youmi.android.banner.AdSize;
+import net.youmi.android.banner.AdView;
+import net.youmi.android.spot.SpotManager;
 
 import org.cocos2dx.lib.Cocos2dxActivity;
 
@@ -37,7 +37,6 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.ActivityInfo;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -45,17 +44,28 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.provider.Settings;
-import android.text.format.Formatter;
 import android.util.Log;
-import android.widget.Toast;
+import android.view.Gravity;
+import android.widget.FrameLayout;
 
 // The name of .so is specified in AndroidMenifest.xml. NativityActivity will load it automatically for you.
 // You can use "System.loadLibrary()" to load other .so files.
 
 public class AppActivity extends Cocos2dxActivity{
-
+	public static String TAG = AppActivity.class.getSimpleName();
 	static String hostIPAdress="0.0.0.0";
+	
+	static AdView mAdView;
+	static FrameLayout.LayoutParams mAdViewLayoutParams;
+	
+	static FrameLayout mCopyFrameLayout;
+	
+	static Handler mHandler;
+	
+	static boolean mShownAds = false;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -91,6 +101,7 @@ public class AppActivity extends Cocos2dxActivity{
 			}
 		}
 		hostIPAdress = getHostIpAddress();
+		appInit();
 	}
 	 private boolean isWifiConnected() {  
 	        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);  
@@ -124,5 +135,64 @@ public class AppActivity extends Cocos2dxActivity{
 	
 	private static native boolean nativeIsLandScape();
 	private static native boolean nativeIsDebug();
+	
+	public void appInit() {
+		AdManager.getInstance(this).init("4d4f1aa0735739cd", "b4ad2897d78bd557", false);
+		
+		// 广告条
+		mAdViewLayoutParams = new FrameLayout.LayoutParams(
+				FrameLayout.LayoutParams.WRAP_CONTENT,
+				FrameLayout.LayoutParams.WRAP_CONTENT);
+		// 设置广告条的悬浮位置
+		mAdViewLayoutParams.gravity = Gravity.TOP | Gravity.CENTER; // 上方
+		// 实例化广告条
+		mAdView = new AdView(this,
+				AdSize.FIT_SCREEN);
+		// 调用Activity的addContentView函数
+		//mFrameLayout.addView(mAdView, mAdViewLayoutParams);
+		mCopyFrameLayout = mFrameLayout;
+		//showAds();
+		mHandler = new Handler(this.getMainLooper());
+	}
+	
+	// jni 显示广告
+	public static void showAds() {
+		Log.d(TAG, "showAds");
+		if (mShownAds) {
+			return;
+		}
+		mShownAds = true;
+		mHandler.post(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				mCopyFrameLayout.addView(mAdView, mAdViewLayoutParams);
+			}
+		});
+		
+	}
+	// jni 隐藏广告
+	public static void hideAds() {
+		Log.d(TAG, "hideAds");
+		if (!mShownAds) {
+			return;
+		}
+		mShownAds = false;
+		mHandler.post(new Runnable() {
+			
+			@Override
+			public void run() {
+				mCopyFrameLayout.removeView(mAdView);
+			}
+		});
+		
+	}
+	@Override
+	protected void onDestroy() {
+		SpotManager.getInstance(this).unregisterSceenReceiver();
+		super.onDestroy();
+	}
+	
 	
 }

@@ -1,7 +1,7 @@
 local MapLevel = {
     grass = {
         {
-            heartNum = 1,
+            heartNum = 4,
             heartBg = "res/heart_bar_grass.png",
             background = "res/map_grass_bg.png",
             barriers = {
