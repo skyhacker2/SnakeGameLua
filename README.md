@@ -25,6 +25,8 @@
 
 ###初始化
 将cocos2d-x 3.1.1 创建的lua项目中，frameworks/cocos2d-x复制到framesworks
+###安装包
+在GitHub工程目录下的publish目录下有Android的apk安装包
 
 本项目可以使用cocos code ide导入
 
