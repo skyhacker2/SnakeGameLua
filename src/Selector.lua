@@ -126,7 +126,10 @@ end
 
 function Selector:onTouchEnded(touch, event)
     if not self._moved then 
-        cc.Director:getInstance():replaceScene(require("src/GameScene").scene(self._board:getSelectedMap(),1))
+        local math = require 'math'
+        math.randomseed(os.time())
+        local level = math.random(1, 3)
+        cc.Director:getInstance():replaceScene(require("src/GameScene").scene(self._board:getSelectedMap(),level))
     end
     local moveTo = cc.MoveTo:create(0.2,cc.p(self._boardX, self._boardY))
     local func = cc.CallFunc:create(function() self._board:nextMap() end)

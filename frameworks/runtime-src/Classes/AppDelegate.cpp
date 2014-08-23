@@ -22,11 +22,11 @@ AppDelegate::~AppDelegate()
 
 bool AppDelegate::applicationDidFinishLaunching()
 {
-    
+
 #if (COCOS2D_DEBUG>0)
     initRuntime();
 #endif
-    
+
     if (!ConfigParser::getInstance()->isInit()) {
             ConfigParser::getInstance()->readConfig();
         }
@@ -48,7 +48,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     }
 
     // turn on display FPS
-    director->setDisplayStats(true);
+    //director->setDisplayStats(true);
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
@@ -61,7 +61,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     LuaStack* stack = engine->getLuaStack();
     register_all_admanager_manual(stack->getLuaState());
 
-    
+
 #if (COCOS2D_DEBUG>0)
     if (startRuntime())
         return true;

@@ -48,11 +48,24 @@ function GameLayer:init(map, level)
     for i = 1, levelData.foods.num do
         self:addFood()
     end
+    
+    
+    
     -- 更新函数
     function update()
         self:logic()    
     end
     self._updateId = scheduler:scheduleScriptFunc(update, G.updateTime, false)
+    
+    -- 关闭按钮
+    self._closeButton = ccui.Button:create("res/close.png")
+    self._closeButton:setPosition(self:getContentSize().width - self._closeButton:getContentSize().width/2,
+        self:getContentSize().height - self._closeButton:getContentSize().height/2)
+    self._closeButton:addTouchEventListener(function()
+        scheduler:unscheduleScriptEntry(self._updateId) 
+        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene()) 
+    end)                                
+    self:addChild(self._closeButton, G.high)
 
     -- 点击屏幕
     function onTouch(touch, event)
@@ -110,14 +123,6 @@ function GameLayer:addFood()
     self._foods[#self._foods + 1] = food
 end
 
-function GameLayer:checkIsEatFood()
-    local isEated, index = self._snake:eatFood(self._foods)
-    if isEated then
-        self:removeChild(self._foods[index],true)
-        table.remove(self._foods,index)
-    end
-    return isEated
-end
 
 function GameLayer:onCollision()
     self._stop = true
@@ -129,8 +134,10 @@ function GameLayer:decreaseHeart()
     self._heartBar:decrease()
     if self._heartBar:getHeartNum() == 0 then
         scheduler:unscheduleScriptEntry(self._updateId)
+        self:saveScore()
         local gameOver = GameOver.create{
-            score = self._eated,
+            score = self._score,
+            isNewScore = self._isNewScore,
             create = function()
                 local GameScene = require "GameScene"
                 local gameScene = GameScene.scene(self._map, self._level)
@@ -139,6 +146,17 @@ function GameLayer:decreaseHeart()
         }
         self:addChild(gameOver, G.highest)
         self._isGameOver = true
+    end
+end
+
+function GameLayer:saveScore()
+    local score  = self._eated * 10 + self._snake:getSize() * 20
+    self._isNewScore = false
+    self._score = score
+    local oldScore = cc.UserDefault:getInstance():getIntegerForKey("score",0)
+    if score > oldScore then
+        cc.UserDefault:getInstance():setIntegerForKey("score",score)
+        self._isNewScore = true
     end
 end
 

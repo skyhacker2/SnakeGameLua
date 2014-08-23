@@ -248,5 +248,9 @@ function Snake:zIndexGenerator()
     end
 end
 
+function Snake:getSize()
+    return #self._nodes
+end
+
 return Snake
 

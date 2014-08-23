@@ -4,7 +4,7 @@ local HomeLayer = class("HomeLayer", function()
 
 function HomeLayer:init()
     local winSize = cc.Director:getInstance():getWinSize()
-    local background = cc.Sprite:create("res/main_1.png")
+    local background = cc.Sprite:create("res/main_1.jpg")
     background:setPosition(winSize.width / 2,winSize.height / 2)
     self:addChild(background)
     
