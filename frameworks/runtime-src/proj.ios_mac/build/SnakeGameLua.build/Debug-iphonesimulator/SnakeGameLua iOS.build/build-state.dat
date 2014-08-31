@@ -15,56 +15,6 @@ cCompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build
 cCompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/Runtime.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/Runtime.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppController.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/AppController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS normal i386
-cGenerateDSYMFile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app.dSYM /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS
-cCpResource ios/Icon-114.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-114.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/ftp.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/ftp.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/ltn12.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/ltn12.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/mbox.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/mbox.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedClass.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/DeprecatedClass.lua
-cCpResource ios/Icon-120.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-120.png
-cCpResource ios/Icon-100.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-100.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/headers.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/headers.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaj.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/luaj.lua
-cCpResource ios/Default@2x.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Default@2x.png
-cCpResource ios/Icon-29.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-29.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/socket.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/socket.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/json.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/json.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/http.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/http.lua
-cCpResource ios/Default-568h@2x.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Default-568h@2x.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2d.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Cocos2d.lua
-cCpResource ios/Icon-58.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-58.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Opengl.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Opengl.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/StudioConstants.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/StudioConstants.lua
-cCpResource ios/Icon-152.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-152.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CCBReaderLoad.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/CCBReaderLoad.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/rtres /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/rtres
-cCpResource ios/Icon-57.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-57.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/AudioEngine.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/AudioEngine.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/res /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/res
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/OpenglConstants.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/OpenglConstants.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/GuiConstants.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/GuiConstants.lua
-cCpResource ios/Icon-76.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-76.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedOpenglEnum.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/DeprecatedOpenglEnum.lua
-cCpResource ios/Icon-80.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-80.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/mime.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/mime.lua
-cCpResource ios/Icon-40.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-40.png
-cCpResource ios/Icon-144.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-144.png
-cCpResource ios/Default.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Default.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DrawPrimitives.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/DrawPrimitives.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/smtp.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/smtp.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/src /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/src
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/luaoc.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/luaoc.lua
-cCpResource ios/Icon-50.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-50.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/CocoStudio.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/CocoStudio.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Cocos2dConstants.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Cocos2dConstants.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/tp.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/tp.lua
-cCpResource ios/Icon-72.png /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Icon-72.png
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/lua/luasocket/url.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/url.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/config.json /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/config.json
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/DeprecatedEnum.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/DeprecatedEnum.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/extern.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/extern.lua
-cCpResource /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/cocos/scripting/lua-bindings/script/Deprecated.lua /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Deprecated.lua
-cTouch /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
 c00000000000000000000000000000000
@@ -1412,9 +1362,9 @@ t1407994513
 s7552
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp
-c0000000053C3732B000000000000099F
-t1405317931
-s2463
+c0000000053F8CEF500000000000009E0
+t1408814837
+s2528
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.h
 c0000000053C3732600000000000003BD
@@ -1451,6 +1401,11 @@ c0000000053C373260000000000000244
 t1405317926
 s580
 
+N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/lua_admanager_manual.h
+c0000000053F608D80000000000000199
+t1408633048
+s409
+
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/Runtime_ios-mac.mm
 c0000000053C3732600000000000003A8
 t1405317926
@@ -1461,8 +1416,8 @@ t1408469050
 s1315900
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua iOS.build/Objects-normal/i386/AppDelegate.o
-t1408469048
-s1707204
+t1409065114
+s1707568
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua iOS.build/Objects-normal/i386/ConfigParser.o
 t1408469047
@@ -1730,7 +1685,7 @@ t1408469529
 s12489
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/Info.plist
-t1408469504
+t1409065111
 s1206
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/Opengl.lua
@@ -1742,12 +1697,12 @@ t1408469529
 s27074
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/PkgInfo
-t1408469504
+t1409065111
 s8
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/SnakeGameLua iOS
-t1408469506
-s22798760
+t2
+s0
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/StudioConstants.lua
 t1408469529
@@ -1826,28 +1781,28 @@ t1408469529
 s11036
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libCocosDenshion iOS.a
-c0000000053F38A000000000000055538
-t1408469504
+c0000000053FCA0970000000000055538
+t1409065111
 s349496
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libchipmunk iOS.a
-c0000000053F389FB00000000000C09E0
-t1408469499
+c0000000053FCA09100000000000C09E0
+t1409065105
 s788960
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libcocos2dx iOS.a
-c0000000053F38A0000000000103D2CC8
-t1408469504
+c0000000053FCA09600000000103D2CC8
+t1409065110
 s272444616
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libcocos2dx-extensions iOS.a
-c0000000053F38A000000000001932010
-t1408469504
+c0000000053FCA0970000000001932010
+t1409065111
 s26419216
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libluabindings iOS.a
-c0000000053F389FB0000000003BA76A8
-t1408469499
+c0000000053FCA0910000000003BA76A8
+t1409065105
 s62551720
 
 N/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/rtres
@@ -2009,7 +1964,7 @@ s5366620
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbc939380c1a3b941^2e019480c1a3b941^---0#1#1#--18"Check dependencies36"4DAE6D9D-0DF8-4C77-A241-ABDB280C8212-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7eac60fdd8acb941^cd5b61fdd8acb941^---0#1#1#--18"Check dependencies36"85893C14-AF5E-4FB5-A2BF-FD113546A93C-
 
 CCompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppController.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/AppController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s430161847.996871
@@ -2209,8 +2164,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compil
 b12DD8FCF-1A33-4CFD-B0C4-9907B3688411
 
 CCompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s430161844.583649
-e430161848.645338
+s430757911.496227
+e430757914.068776
 r1
 xCompileC
 xbuild/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua iOS.build/Objects-normal/i386/AppDelegate.o
@@ -2407,8 +2362,9 @@ d/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/coc
 d/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/json/internal/pow10.h
 d/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/json/internal/stack.h
 d/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/cocos2d-x/external/json/internal/strfunc.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp285"CompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf99e95b4bfa3b941^0135a5b8bfa3b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^6018"CompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCC_TARGET_OS_IPHONE -DDEBUG -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_LUA_ENGINE_ENABLED=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DGLFW_EXPOSE_NATIVE_COCOA -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=5.0 -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/SnakeGameLua\ iOS.hmap -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/base -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/physics -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/math/kazmath -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/2d -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/ui -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/network -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/audio/include -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/editor-support -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/extensions -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/chipmunk/include/chipmunk -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/luajit/include -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/tolua -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/manual -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/auto -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/platform/ios -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/include -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/DerivedSources/i386 -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/DerivedSources -F/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios -include /var/folders/4t/_rrkg7vs6v1700mkql425zrw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bmvbxkzoglwovidrslkpmjciamsj/Prefix.pch -MMD -MT dependencies -MF /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.dia -c /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp -o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o36"953731F9-5D9E-4582-96CF-E553EA104B24-
-b12DD8FCF-1A33-4CFD-B0C4-9907B3688411
+d/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/lua_admanager_manual.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp285"CompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler5a2a7f17d8acb941^e59b111ad8acb941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^6018"CompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCC_TARGET_OS_IPHONE -DDEBUG -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_LUA_ENGINE_ENABLED=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DGLFW_EXPOSE_NATIVE_COCOA -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=5.0 -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/SnakeGameLua\ iOS.hmap -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/base -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/physics -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/math/kazmath -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/2d -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/ui -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/network -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/audio/include -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/editor-support -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/extensions -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/chipmunk/include/chipmunk -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/luajit/include -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/lua/tolua -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/manual -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/scripting/lua-bindings/auto -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/cocos/platform/ios -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/include -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/DerivedSources/i386 -I/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/DerivedSources -F/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios -include /var/folders/4t/_rrkg7vs6v1700mkql425zrw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-bmvbxkzoglwovidrslkpmjciamsj/Prefix.pch -MMD -MT dependencies -MF /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.dia -c /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/AppDelegate.cpp -o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/AppDelegate.o36"536B3A8D-ACC8-4402-A103-5C395092CD4F-
+b9779646A-CC1B-4B4B-81CA-E34A16DC77D1
 
 CCompileC build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/ConfigParser.o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/ConfigParser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s430161844.583961
@@ -3749,9 +3705,9 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Genera
 bE7C03CD1-86C2-4A1F-805D-8A8A229168A4
 
 CLd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS normal i386
-s430162304.586267
-e430162306.319002
-r1
+s430758141.387202
+e430758142.075290
+r0
 xLd
 x/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/SnakeGameLua iOS
 xnormal
@@ -3787,6 +3743,9 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -3809,9 +3768,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
@@ -3839,18 +3795,23 @@ d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/SnakeGameLua iOS131"Ld /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS normal i38642259680c1a3b941^8aac5182c1a3b941^---0#0#1#--2319"Ld /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS normal i386    cd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios -F/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios -filelist /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/SnakeGameLua\ iOS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -stdlib=libc++ -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libluabindings\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libchipmunk\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libcocos2dx\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libcocos2dx-extensions\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libCocosDenshion\ iOS.a -framework CoreMotion -lz -framework UIKit -framework OpenGLES -framework QuartzCore -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/SnakeGameLua\ iOS_dependency_info.dat -o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS36"1A9AFC54-6348-4DD6-AC1D-BD6680F25A18-
-bE7C03CD1-86C2-4A1F-805D-8A8A229168A4
+oUndefined symbols for architecture i386:
+o  "register_all_admanager_manual(lua_State*)", referenced from:
+o      AppDelegate::applicationDidFinishLaunching() in AppDelegate.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/SnakeGameLua iOS131"Ld /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS normal i386573e63fdd8acb941^284513fed8acb941^-299"Undefined symbols for architecture i386:  "register_all_admanager_manual(lua_State*)", referenced from:      AppDelegate::applicationDidFinishLaunching() in AppDelegate.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@61""register_all_admanager_manual(lua_State*)", referenced from:-430758142#41#64#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@61"AppDelegate::applicationDidFinishLaunching() in AppDelegate.o-430758142#105#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41"Symbol(s) not found for architecture i386-430758142#173#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-430758142#219#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#1#--2319"Ld /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS normal i386    cd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios -F/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios -filelist /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/SnakeGameLua\ iOS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -stdlib=libc++ -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libluabindings\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libchipmunk\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libcocos2dx\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libcocos2dx-extensions\ iOS.a /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/libCocosDenshion\ iOS.a -framework CoreMotion -lz -framework UIKit -framework OpenGLES -framework QuartzCore -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/build/SnakeGameLua.build/Debug-iphonesimulator/SnakeGameLua\ iOS.build/Objects-normal/i386/SnakeGameLua\ iOS_dependency_info.dat -o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/SnakeGameLua\ iOS36"A5F32555-7C02-44C2-94F1-A072A6F7DB82-
+bD8DC8275-A048-4CB7-AB5E-0F6458707DBD
 
 CProcessInfoPlistFile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist
-s430162304.578771
-e430162304.580802
+s430757911.487497
+e430757911.492027
 r1
 xProcessInfoPlistFile
 x/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua iOS.app/Info.plist
 x/Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Process /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist145"ProcessInfoPlistFile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist ios/Info.plistde399480c1a3b941^36b19480c1a3b941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist0000000000000000^888"ProcessInfoPlistFile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist ios/Info.plist    cd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist -genpkginfo /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist36"FF8D23E5-CF7E-44F1-B5FC-32189CED987C-
-bE7C03CD1-86C2-4A1F-805D-8A8A229168A4
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Process /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist145"ProcessInfoPlistFile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist ios/Info.plist87dc7c17d8acb941^bef57d17d8acb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist0000000000000000^888"ProcessInfoPlistFile /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist ios/Info.plist    cd /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/ios/Info.plist -genpkginfo /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/runtime/ios/SnakeGameLua\ iOS.app/Info.plist36"B13EB821-DBE4-4362-9314-F103504BA96A-
+b9779646A-CC1B-4B4B-81CA-E34A16DC77D1
 
 CProcessPCH /var/folders/4t/_rrkg7vs6v1700mkql425zrw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Prefix-fiymbtdnnwrfkickzftuumdoeuvw/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s429195287.461149

@@ -50,7 +50,6 @@ function GameLayer:init(map, level)
     end
     
     
-    
     -- 更新函数
     function update()
         self:logic()    

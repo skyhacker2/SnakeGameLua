@@ -186,4 +186,5 @@ dependencies: \
   /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/json/rapidjson.h \
   /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/json/internal/pow10.h \
   /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/json/internal/stack.h \
-  /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/json/internal/strfunc.h
+  /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/proj.ios_mac/../../cocos2d-x/external/json/internal/strfunc.h \
+  /Users/eleven/projects/cocos2d-x-3.1.1/projects_lua/SnakeGameLua/frameworks/runtime-src/Classes/lua_admanager_manual.h
