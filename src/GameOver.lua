@@ -55,7 +55,7 @@ function GameOver.create(opt)
     local function gotoHome()
         print("gotoHome")
         hideAds()
-        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene())
+        cc.Director:getInstance():replaceScene(require("MapSelectScene").scene())
     end
     
     local menuItemLabels = {"重玩", "返回"}

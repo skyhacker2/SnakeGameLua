@@ -1,11 +1,11 @@
 local GameLayer = class("GameLayer", function() return cc.Layer:create() end)
-local HeartBar = require "src/HeartBar"
-local Food = require "src/Food"
-local Barrier = require "src/Barrier"
-local Snake = require "src/Snake"
+local HeartBar = require "HeartBar"
+local Food = require "Food"
+local Barrier = require "Barrier"
+local Snake = require "Snake"
 local math = require "math"
-local GameOver = require "src/GameOver"
-local MapLevel = require "src/MapLevel"
+local GameOver = require "GameOver"
+local MapLevel = require "MapLevel"
 local mapBg = {
     grass = "res/map_grass.png"
 }
@@ -62,7 +62,7 @@ function GameLayer:init(map, level)
         self:getContentSize().height - self._closeButton:getContentSize().height/2)
     self._closeButton:addTouchEventListener(function()
         scheduler:unscheduleScriptEntry(self._updateId) 
-        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene()) 
+        cc.Director:getInstance():replaceScene(require("MapSelectScene").scene()) 
     end)                                
     self:addChild(self._closeButton, G.high)
 

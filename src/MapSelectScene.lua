@@ -1,5 +1,5 @@
 local MapSelectScene = class("MapSelectScene", function() return cc.Scene:create() end)
-local MapSelectLayer = require "src/MapSelectLayer"
+local MapSelectLayer = require "MapSelectLayer"
 
 function MapSelectScene.scene()
     local scene = MapSelectScene:new()

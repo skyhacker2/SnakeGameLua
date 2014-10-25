@@ -1,5 +1,5 @@
 local Snake = class("Snake", function() return cc.Layer:create() end)
-local SnakeNode = require "src/SnakeNode"
+local SnakeNode = require "SnakeNode"
 require "math"
 function Snake:ctor()
     self._nodes = {}

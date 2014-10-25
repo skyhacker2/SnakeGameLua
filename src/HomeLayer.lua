@@ -13,7 +13,7 @@ function HomeLayer:init()
     settingBtn:setPosition(0, startBtn:getPositionY() - startBtn:getContentSize().height)
     
     function startMenuCallback()
-        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene("grass",1))
+        cc.Director:getInstance():replaceScene(require("MapSelectScene").scene("grass",1))
     end
     startBtn:registerScriptTapHandler(startMenuCallback)
     local menu = cc.Menu:create(startBtn, settingBtn)

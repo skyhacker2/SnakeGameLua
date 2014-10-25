@@ -1,6 +1,6 @@
 local MapSelectLayer = class("MapSelectLayer", function() return cc.Layer:create() end)
-local G = require "src/G"
-local Selector = require "src/Selector"
+local G = require "G"
+local Selector = require "Selector"
 function MapSelectLayer:init()
     local bg = cc.Sprite:create("res/map_select_bg.jpg")
     bg:setPosition(G.winSize.width/2,G.winSize.height/2)

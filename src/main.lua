@@ -7,7 +7,7 @@ end
 
 require "Cocos2d"
 require "Cocos2dConstants"
-require("src/G")
+
 
 -- cclog
 cclog = function(...)
@@ -30,6 +30,7 @@ local function main()
     collectgarbage("setstepmul", 5000)
     cc.Director:getInstance():getOpenGLView():setDesignResolutionSize(1136, 640, 0)
 	cc.FileUtils:getInstance():addSearchResolutionsOrder("src");
+    cc.FileUtils:getInstance():addSearchResolutionsOrder("bytecode");
 	cc.FileUtils:getInstance():addSearchResolutionsOrder("res");
 	
     --support debug
@@ -40,12 +41,12 @@ local function main()
 		--require('debugger')()
         
     end
-    G.init()
+    require("G").init()
     cclog("Game Start")
 	if cc.Director:getInstance():getRunningScene() then
-        cc.Director:getInstance():replaceScene(require("src/MapSelectScene").scene())
+        cc.Director:getInstance():replaceScene(require("MapSelectScene").scene())
 	else
-        cc.Director:getInstance():runWithScene(require("src/MapSelectScene").scene())
+        cc.Director:getInstance():runWithScene(require("MapSelectScene").scene())
 	end
 	
 end

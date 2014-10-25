@@ -1,5 +1,5 @@
 local GameScene = class("GameScene", function() return cc.Scene:create() end)
-local GameLayer = require("src/GameLayer")
+local GameLayer = require("GameLayer")
 -- map 地图
 -- level 级数
 function GameScene.scene(map, level)

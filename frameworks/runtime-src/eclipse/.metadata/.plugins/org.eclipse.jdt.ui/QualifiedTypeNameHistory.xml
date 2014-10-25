@@ -7,5 +7,6 @@
 <fullyQualifiedTypeName name="net.youmi.android.banner.AdView"/>
 <fullyQualifiedTypeName name="android.widget.FrameLayout.LayoutParams"/>
 <fullyQualifiedTypeName name="android.widget.FrameLayout"/>
+<fullyQualifiedTypeName name="org.cocos2dx.lua.YoumiAdManager"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
